@@ -1,0 +1,82 @@
+.buttons button {
+    display: block;
+    
+    flex: 1 1 calc(25% - 0.5rem);
+    width: 24%;
+    margin:8px 0.25rem;
+    
+    font-size: 1.8rem;
+    outline: none;
+    border: 1px solid #3C4857;
+    border-radius: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #fff;
+    /* color: #444; */
+    background: #425062;
+    /* background-color: #f5f5f5; */
+    -webkit-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+  }
+  
+  .buttons button:hover {
+    border: 1px solid #aaa;
+  }
+  
+  .buttons button:active {
+    background-color: rgba(0, 0, 0, 0.8);
+    outline: none;
+  }
+  
+  .buttons button:focus {
+    outline: none;
+  }
+  
+  #parenthesis-open,
+  #parenthesis-close,
+  #modulo,
+  #clear,
+  #divide,
+  #multiply,
+  #subtract,
+  #add {
+    color: #AEB3BA;
+    background: #404D5E;
+  }
+  
+  #parenthesis-open:active,
+  #parenthesis-close:active,
+  #modulo:active,
+  #clear:active,
+  #divide:active,
+  #multiply:active,
+  #subtract:active,
+  #add:active,
+  #equals:active,
+  #clear:active {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  #parenthesis-open:hover,
+  #parenthesis-close:hover,
+  #modulo:hover,
+  #clear:hover,
+  #divide:hover,
+  #multiply:hover,
+  #subtract:hover,
+  #add:hover {
+    border: 1px solid #aaa;
+  }
+  
+  #equals {
+    color: #f5f5f5;
+    background-color: #3da4ab;
+    font-weight: 700;
+  }
+  
+  #clear {
+    color: #D95D4E;
+    font-weight: 700;
+    background: #404D5E;
+  }
